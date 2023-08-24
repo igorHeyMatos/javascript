@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 010</title>
+</head>
+<body>
+    <table border = 1px solid black;>
+        <thead>
+            <th>Turma</th>
+            <th>Faixa etária</th>
+        </thead>
+        
+        <tbody id="turmaA">
+            <td>Turma A</td>
+            <td>de 4 a 5 anos</td>
+        </tbody>
+        <tbody id="turmaB">
+            <td>Turma B</td>
+            <td>de 6 a 8 anos</td>
+        </tbody>
+        <tbody id="turmaC">
+            <td>Turma C</td>
+            <td>de 9 a 10 anos</td>
+        </tbody>
+        <tbody id="semTurma">
+            <td>Sem turmas</td>
+            <td>abaixo de 4 anos e acima de 10 anos</td>
+        </tbody>
+    </table>
+    <input type="number" name="" id="idade_crianca" placeholder="Digite a idade da criança...">
+
+    <input type="button" value="Enviar" onclick="turma()">
+
+    <div id="res"></div>
+
+    <script src="exx010.js"></script>
+</body>
+</html>

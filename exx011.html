@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 011</title>
+</head>
+<body>
+    <table border="1px solid black">
+        <thead>
+            <th>Salário Atual</th>
+            <th>Aumento</th>
+        </thead>
+        
+        <tbody>
+            <td>0.00 - 1400.0</td>
+            <td>15%</td>
+        </tbody>
+        <tbody>
+            <td>1401.0 - 2000.0</td>
+            <td>12%</td>
+        </tbody>
+        <tbody>
+            <td>2001.0 - 3000.0</td>
+            <td>10%</td>
+        </tbody>
+        <tbody>
+            <td>3001.0 - 3800.0</td>
+            <td>7%</td>
+        </tbody>
+        <tbody>
+            <td>3801.0 - 5000.0</td>
+            <td>4%</td>
+        </tbody>
+        <tbody>
+            <td>acima de 5000.0</td>
+            <td>Sem aumento</td>
+        </tbody>
+    </table>
+
+    <input type="number" name="" id="salario_atual" placeholder="Digite seu salário atual..">
+
+    <input type="button" value="Enviar" onclick="aumento()">
+    
+    <div id="perc_aumento"></div>
+    <div id="salario"></div>
+    <div id="total"></div>
+
+    <script src="exx011.js"></script>
+</body>
+</html>
