@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placar cesta de Robôs</title>
+    <style>
+        tr {
+            border: 1px solid black;
+        }
+        th {
+            border: 1px solid black;
+        }
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Distância</th>
+                <th>Pontos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Se 0 <= D <= 800</td>
+                <td>1 Ponto</td>
+            </tr>
+            <tr>
+                <td>Se 800 < D <= 1400</td>
+                <td>2 Pontos</td>
+            </tr>
+            <tr>
+                <td>Se 1400 < D <= 2000</td>
+                <td>3 Pontos</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <label for="D">Digite a distância da cesta: </label>
+    <input type="number" id="D">
+
+    <input type="button" value="Verificar pontos" onclick="pontos()">
+
+    <div id="res">
+        
+    </div>
+
+    <script src="exx022.js"></script>
+</body>
+</html>

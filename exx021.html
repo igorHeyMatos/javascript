@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa papelaria</title>
+    <style>
+        tr {
+            border: 1px solid black;
+        }
+        th {
+            border: 1px solid black;
+        }
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Até 100 FOLHAS</th>
+                <th>Acima de 100 FOLHAS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>R$ 0,25</td>
+                <td>R$ 0,20</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <label for="folhas">Quantidade de folhas: </label>
+    <input type="number" id="folhas">
+
+    <input type="button" value="Calcular" onclick="calcular()">
+
+    <div id="res"></div>
+
+    <script src="exx021.js"></script>
+</body>
+</html>

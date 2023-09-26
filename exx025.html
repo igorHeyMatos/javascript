@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reajuste de notas para a Inglaterra</title>
+    <style>
+        tr {
+            border: 1px solid black;
+        }
+        th {
+            border: 1px solid black;
+        }
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nota</th>
+                <th>Conceito</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>1 a 35</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>36 a 60</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>61 a 85</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>86 a 100</td>
+                <td>A</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <label for="nota">Digite a nota do aluno: </label>
+    <input type="number" id="nota">
+
+    <input type="button" value="Avaliar" onclick="avaliar()">
+
+    <h2>Conceito: </h2>
+    <h3 id="res"></h3>
+
+    <script src="exx025.js"></script>
+</body>
+</html>
